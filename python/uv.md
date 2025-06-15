@@ -1,5 +1,10 @@
 # ⚡ UV
 
+- [⚡ UV](#-uv)
+  - [👀 Fast Lookup](#-fast-lookup)
+  - [🧐 What is UV?](#-what-is-uv)
+  - [😎 Command Cheat Sheet](#-command-cheat-sheet)
+
 ## 👀 Fast Lookup
 
 - **Package Management** && **Virtual Environment Management** && **SUPER FAST**
@@ -8,7 +13,7 @@
 
 UV is an amazing tool for managing Python packages and projects and IT IS SUPER FAST!
 
-## 😎 Cheat Sheet
+## 😎 Command Cheat Sheet
 
 - **Initialize a new project**
   - `uv init` : Initialize a new project to current directory

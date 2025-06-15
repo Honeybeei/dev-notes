@@ -28,7 +28,6 @@
     - [2. HSL vs RGB](#2-hsl-vs-rgb)
     - [3. Naming Conventions](#3-naming-conventions)
     - [4. Documentation](#4-documentation)
-    - [5. Validation Tools](#5-validation-tools)
 
 ## 👀 Fast Lookup
 
@@ -498,11 +497,3 @@ Always document:
 - Accessibility considerations
 - Dark mode behavior
 - Component-specific implementations
-
-### 5. Validation Tools
-
-Use tools like:
-
-- **WebAIM Color Contrast Checker**
-- **Colour Contrast Analyser (CCA)**
-- **axe-core** for automated testing
