@@ -34,3 +34,5 @@ tasks/
 previous-notes
 dummy
 .obsidian
+ignores
+todo.md
