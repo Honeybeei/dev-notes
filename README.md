@@ -2,7 +2,7 @@
 
 - [📝 Dev Notes](#-dev-notes)
   - [🧐 What is this repository about?](#-what-is-this-repository-about)
-  - [� Notes](#-notes)
+  - [📝 Notes](#-notes)
     - [🗣️ Languages](#️-languages)
       - [❤️‍🩹 JavaScript, TypeScript](#️-javascript-typescript)
       - [🐍 Python](#-python)
@@ -56,6 +56,9 @@ This repository is a collection of my **personal notes** and **cheat-sheets** fo
 #### 🦀 Rust
 
 - [📖 Learning Materials](./rust/learning-material.md)
+- [👋 Hello World](./rust/hello-world.md)
+- [📦 Cargo](./rust/cargo.md)
+- [📮 Variables](./rust/variables.md)
 
 ### 🤖 AI & Machine Learning
 
