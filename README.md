@@ -59,6 +59,7 @@ This repository is a collection of my **personal notes** and **cheat-sheets** fo
 - [👋 Hello World](./rust/hello-world.md)
 - [📦 Cargo](./rust/cargo.md)
 - [📮 Variables](./rust/variables.md)
+- [📊 Data Types](./rust/data-types.md)
 
 ### 🤖 AI & Machine Learning
 
