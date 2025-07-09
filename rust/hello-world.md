@@ -8,7 +8,9 @@
 
 ## 👀 Fast Lookup
 
-This note is a simple "Hello World" example in Rust.
+- This note is a simple "Hello World" example in Rust.
+- `rustup` : Manages Rust versions and associated tools.
+- `rustc` : The Rust compiler that compiles the source code into an executable binary.
 
 ## ⚙️ Initial Setup and Keywords
 
