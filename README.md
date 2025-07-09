@@ -62,6 +62,8 @@ This repository is a collection of my **personal notes** and **cheat-sheets** fo
 - [📊 Data Types](./rust/data-types.md)
 - [🔧 Functions](./rust/functions.md)
 - [🔁 Control Flow](./rust/control-flow.md)
+- [📝 Stack and Heap](./rust/stack-and-heap.md)
+- [🔒 Ownership](./rust/ownership.md)
 
 ### 🤖 AI & Machine Learning
 
