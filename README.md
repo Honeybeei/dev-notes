@@ -64,6 +64,8 @@ This repository is a collection of my **personal notes** and **cheat-sheets** fo
 - [🔁 Control Flow](./rust/control-flow.md)
 - [📝 Stack and Heap](./rust/stack-and-heap.md)
 - [🔒 Ownership](./rust/ownership.md)
+- [🍱 Structs and Methods](./rust/structs-methods.md)
+- [🔢 Enums](./rust/enums.md)
 
 ### 🤖 AI & Machine Learning
 
