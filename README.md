@@ -2,7 +2,7 @@
 
 - [📝 Dev Notes](#-dev-notes)
   - [🧐 What is this repository about?](#-what-is-this-repository-about)
-  - [� Notes](#-notes)
+  - [📝 Notes](#-notes)
     - [🗣️ Languages](#️-languages)
       - [❤️‍🩹 JavaScript, TypeScript](#️-javascript-typescript)
       - [🐍 Python](#-python)
@@ -59,7 +59,7 @@ This repository is a collection of my **personal notes** and **cheat-sheets** fo
 
 ### 🤖 AI & Machine Learning
 
-... Coming soon
+- [Math with Pytorch](./ai-ml/math-with-pytorch.md)
 
 ### 🧠 Computer Science & Algorithms
 
