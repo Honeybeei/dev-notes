@@ -69,7 +69,7 @@ This repository is a collection of my **personal notes** and **cheat-sheets** fo
 
 ### 🤖 AI & Machine Learning
 
-... Coming soon
+- [Math with Pytorch](./ai-ml/math-with-pytorch.md)
 
 ### 🧠 Computer Science & Algorithms
 
