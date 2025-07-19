@@ -66,6 +66,8 @@ This repository is a collection of my **personal notes** and **cheat-sheets** fo
 - [🔒 Ownership](./rust/ownership.md)
 - [🍱 Structs and Methods](./rust/structs-methods.md)
 - [🔢 Enums](./rust/enums.md)
+- [🎁 Packages, Creates and Modules](./rust/packages-creates-modules.md)
+- [🏘️ Vectors](./rust/vectors.md)
 
 ### 🤖 AI & Machine Learning
 
