@@ -8,9 +8,12 @@
 
 ## 👀 Fast Lookup
 
-- This note is a simple "Hello World" example in Rust.
-- `rustup` : Manages Rust versions and associated tools.
-- `rustc` : The Rust compiler that compiles the source code into an executable binary.
+- **Basic Rust Program**: `fn main() { println!("Hello, world!"); }`
+- **Compile & Run**: `rustc main.rs` then `./main`
+- **Key Tools**:
+  - `rustup`: Manages Rust versions and associated tools
+  - `rustc`: The Rust compiler that compiles source code into executable binary
+- **Key Syntax**: `println!` is a macro (note the `!`), functions use `fn`, statements end with `;`
 
 ## ⚙️ Initial Setup and Keywords
 

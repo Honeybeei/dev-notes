@@ -1,6 +1,29 @@
 # 🏘️ Vectors
 
+- [🏘️ Vectors](#️-vectors)
+  - [👀 Fast Lookup](#-fast-lookup)
+  - [❓ What is a Vector?](#-what-is-a-vector)
+  - [🛠️ How to create a Vector?](#️-how-to-create-a-vector)
+    - [🆕 Using `Vec::new()`](#-using-vecnew)
+    - [🎯 Using the `vec!` macro](#-using-the-vec-macro)
+  - [📝 How to use a Vector?](#-how-to-use-a-vector)
+    - [🏗️ Creating and Modifying Vectors](#️-creating-and-modifying-vectors)
+    - [🔍 Accessing Elements](#-accessing-elements)
+      - [⚠️ Complicated Ownership and Borrowing in Vectors](#️-complicated-ownership-and-borrowing-in-vectors)
+      - [🔄 Iterating Over Vectors](#-iterating-over-vectors)
+  - [🎭 Using Enums in Vectors](#-using-enums-in-vectors)
+
 ## 👀 Fast Lookup
+
+- **Vector**: Growable array that stores multiple values of same type
+- **Creation**:
+  - `let mut v: Vec<i32> = Vec::new();` (explicit type)
+  - `let v = vec![1, 2, 3];` (inferred type)
+- **Key Operations**:
+  - `v.push(4)` - Add element
+  - `&v[0]` - Access by index (panics if out of bounds)
+  - `v.get(2)` - Safe access returning `Option<&T>`
+- **Borrowing Rule**: Can't modify vector while borrowing elements
 
 ## ❓ What is a Vector?
 
@@ -16,7 +39,7 @@ A Vector is one of the **collection types** defined in the Rust standard library
 
 To create a new vector in Rust, you can use the `Vec::new()` function or the `vec!` macro.
 
-### Using `Vec::new()`
+### 🆕 Using `Vec::new()`
 
 Compiler doesn't know the type of the vector, so you need to specify it explicitly.
 
@@ -24,7 +47,7 @@ Compiler doesn't know the type of the vector, so you need to specify it explicit
 let mut v: Vec<i32> = Vec::new();
 ```
 
-### Using the `vec!` macro
+### 🎯 Using the `vec!` macro
 
 In this case, the compiler can infer the type of the vector from the values you provide.
 
@@ -34,7 +57,7 @@ let v = vec![1, 2, 3];
 
 ## 📝 How to use a Vector?
 
-### Creating and Modifying Vectors
+### 🏗️ Creating and Modifying Vectors
 
 ```rust
 // Creating vectors
@@ -46,7 +69,7 @@ v_mutable.push(4); // Adds 4 to the end of the vector
 // v.immutable.push(7); // Error: cannot modify an immutable vector
 ```
 
-### Accessing Elements
+### 🔍 Accessing Elements
 
 There are two ways to access elements in a vector:
 
@@ -70,7 +93,7 @@ match third_element {
 }
 ```
 
-#### Complicated Ownership and Borrowing in Vectors
+#### ⚠️ Complicated Ownership and Borrowing in Vectors
 
 When you have a mutable vector and you want to borrow an element from it, you need to be careful about the ownership and borrowing rules in Rust.
 
@@ -81,7 +104,7 @@ v.push(4); // Modifying the vector
 // println!("First element: {}", first_element); // This will cause a compile-time error because the vector was modified after borrowing
 ```
 
-#### Iterating Over Vectors
+#### 🔄 Iterating Over Vectors
 
 ```rust
 let v_immutable = vec![1, 2, 3, 4, 5];
@@ -95,7 +118,7 @@ for element in &mut v_mutable {
 }
 ```
 
-## Using Enums in Vectors
+## 🎭 Using Enums in Vectors
 
 We can leverage enum system to create a vector that can hold different types of values.
 

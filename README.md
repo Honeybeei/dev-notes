@@ -88,7 +88,13 @@ This repository is a collection of my **personal notes** and **cheat-sheets** fo
   - Start with `#` for the title of the note
   - Display the table of contents
   - `## 👀 Fast Lookup` should be the first section
-    - This section includes a brief explanation and core concepts of the topic. Keywords with explanation and summary of the topic should be listed here.
+    - This section should serve as a quick reference cheat-sheet containing:
+      - **Key definitions**: Core concepts in bullet points (e.g., "Vector is a growable array")
+      - **Essential syntax**: Critical code snippets for creation/usage (e.g., `Vec::new()`, `vec![1,2,3]`)
+      - **Important characteristics**: Key properties and behaviors of the concept
+      - **Core methods/operations**: Most commonly used functionality with minimal context
+      - **Critical distinctions**: Key differences between related or similar concepts
+      - **Quick reminders**: When and why to use the concept
   - ... Extra more sections as needed
 - Add **Relatable Emoji** to the head of the section titles (`#`, `##`, `###` only)
 - Split the topic if it's too long

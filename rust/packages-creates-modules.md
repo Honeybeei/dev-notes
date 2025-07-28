@@ -11,6 +11,13 @@
 
 ## 👀 Fast Lookup
 
+- **Package**: Collection of one or more crates with `Cargo.toml`
+- **Crate**: Compilation unit - either binary (`src/main.rs`) or library (`src/lib.rs`)
+- **Module**: Code organization within crates using `mod` keyword
+- **Visibility**: Use `pub` to make items public, private by default
+- **Paths**: Absolute (`crate::`) or relative (`self::`) to access modules
+- **Usage**: `use` keyword to bring items into scope
+
 ## 🏗️ Packages and Crates
 
 - **Package** is a collection of one or more crates
