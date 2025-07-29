@@ -3,6 +3,7 @@
 - [📝 Dev Notes](#-dev-notes)
   - [🧐 What is this repository about?](#-what-is-this-repository-about)
   - [📝 Notes](#-notes)
+    - [💻 CS Knowledge](#-cs-knowledge)
     - [🗣️ Languages](#️-languages)
       - [❤️‍🩹 JavaScript, TypeScript](#️-javascript-typescript)
       - [🐍 Python](#-python)
@@ -18,6 +19,10 @@
 This repository is a collection of my **personal notes** and **cheat-sheets** for various programming languages, frameworks, and tools that I use in my development work. I often find it difficult to recall important details, particularly when switching between various programming languages and frameworks. This repository aims to provide a quick reference for myself and maybe others who might find it useful.
 
 ## 📝 Notes
+
+### 💻 CS Knowledge
+
+- [🧵 Character Encodings](./cs/character-encodings.md)
 
 ### 🗣️ Languages
 
@@ -68,6 +73,7 @@ This repository is a collection of my **personal notes** and **cheat-sheets** fo
 - [🔢 Enums](./rust/enums.md)
 - [🎁 Packages, Creates and Modules](./rust/packages-creates-modules.md)
 - [🏘️ Vectors](./rust/vectors.md)
+- [🧵 Strings](./rust/strings.md)
 
 ### 🤖 AI & Machine Learning
 
